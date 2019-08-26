@@ -1,0 +1,45 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": false,
+    "editor.fontFamily": "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.cursorBlinking": "solid",
+    "editor.hideCursorInOverviewRuler": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "highlight.decorations": {
+        "rangeBehavior": 3
+    }, // Default decorations from which all others inherit from
+    "highlight.regexFlags": "gi", // Default flags used when building the regexes
+    "highlight.maxMatches": 250, // Maximum number of matches per regex to decorate
+    "highlight.regexes": {
+        "( TODO:?)": [
+            {
+                "color": "red",
+                "fontWeight": "bold"
+            }
+        ],
+        "( WAIT:?)": [
+            {
+                "color": "yellow",
+                "fontWeight": "bold"
+            }
+        ]
+    },
+    "git-autoconfig.configList": [
+        {
+            "user.email": "morten.eek@bergen.kommune.no"
+        }
+    ],
+    "window.titleBarStyle": "custom",
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Nord",
+    "editor.fontSize": 13,
+    "breadcrumbs.enabled": false,
+    "git.autofetch": true
+}
