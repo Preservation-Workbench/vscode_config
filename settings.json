@@ -36,10 +36,8 @@
             "user.email": "morten.eek@bergen.kommune.no"
         }
     ],
-    "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Nord",
-    "editor.fontSize": 13,
     "breadcrumbs.enabled": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.colorTheme": "Soho"
 }

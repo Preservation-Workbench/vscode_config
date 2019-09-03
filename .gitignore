@@ -1,0 +1,6 @@
+# Ignore directories and files
+globalStorage/*
+workspaceStorage/*
+
+
+
