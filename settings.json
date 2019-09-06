@@ -39,5 +39,6 @@
     "git.enableSmartCommit": true,
     "breadcrumbs.enabled": false,
     "git.autofetch": true,
-    "workbench.colorTheme": "Soho"
+    "workbench.colorTheme": "Soho",
+    "python.formatting.provider": "yapf"
 }
