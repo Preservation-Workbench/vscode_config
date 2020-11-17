@@ -39,6 +39,16 @@
     "git.enableSmartCommit": true,
     "breadcrumbs.enabled": false,
     "git.autofetch": true,
+    "python.formatting.provider": "yapf",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
+    "python.formatting.yapfArgs": [
+        "--max-line-length=200"
+    ],
     "workbench.colorTheme": "Soho",
-    "python.formatting.provider": "yapf"
+    "python.pythonPath": "/usr/bin/python3",
+    "update.mode": "none",
+    "git.githubAuthentication": false,
+    "github.gitAuthentication": false,
+    "workbench.editor.showTabs": true
 }

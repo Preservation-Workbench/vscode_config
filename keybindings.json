@@ -143,10 +143,6 @@
         "command": "fuzzySearch.activeTextEditor"
     },
     {
-        "key": "ctrl+o",
-        "command": "extension.file-picker.openFileRelativeToOpenedFile"
-    },
-    {
         "key": "f1",
         "command": "-workbench.action.showCommands"
     },
@@ -157,5 +153,14 @@
     {
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openLocalFile",
+        "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFile"
     }
 ]
